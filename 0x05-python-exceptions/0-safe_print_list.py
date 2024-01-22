@@ -7,7 +7,7 @@ def safe_print_list(my_list=[], x=0):
             my_list (list): The list to be printed.
             x (int): The number of elements to be printed from my_list.
 
-            Returns: The number of elements printed.
+            Return: The number of elements printed.
 
     """
     return_ = 0
