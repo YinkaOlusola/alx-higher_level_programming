@@ -4,11 +4,12 @@ def list_division(my_list_1, my_list_2, list_length):
     """Divides two lists element by element
 
     args:
-            my_list_1 (list): First list
-            my_list_2 (list): Second list
-            list_length (int): Length of the list to be returned
+        my_list_1 (list): First list
+        my_list_2 (list): Second list
+        list_length (int): Length of the list to be returned
 
-            Returns: A new list of length list_length
+    Returns:
+        A new list of length list_length
     """
     result_list = []
     for i in range(list_length):
