@@ -11,7 +11,6 @@ def safe_print_list(my_list=[], x=0):
         The number of elements printed.
 
     """
-
     return_ = 0
 
     for i in range(x):
@@ -21,5 +20,4 @@ def safe_print_list(my_list=[], x=0):
         except IndexError:
             break
     print("")
-    return (return_)
-            
+    return (return_)  
