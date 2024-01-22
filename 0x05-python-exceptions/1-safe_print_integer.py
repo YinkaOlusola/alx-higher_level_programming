@@ -9,7 +9,6 @@ def safe_print_integer(value):
             Return: True or False
 
     """
-
     try:
         print("{:d}".format(value))
         return (True)
@@ -17,5 +16,3 @@ def safe_print_integer(value):
         return (False)
 
     print("\n")
-
-        
