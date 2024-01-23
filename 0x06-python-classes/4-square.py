@@ -12,7 +12,7 @@ class Square:
         Args:
             size (int): The size of the new square.
         """
-        self.__size = size
+        self.size(size)
 
     def size(self, value):
         """Sets the value of size
