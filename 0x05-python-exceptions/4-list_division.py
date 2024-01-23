@@ -8,8 +8,7 @@ def list_division(my_list_1, my_list_2, list_length):
         my_list_2 (list): Second list
         list_length (int): Length of the list to be returned
 
-    Returns:
-        A new list of length list_length
+        Returns: A new list of length list_length
 
     """
     result_list = []
