@@ -70,7 +70,7 @@ class Rectangle:
 
         rectangular_object = []
         for i in range(self.__height):
-            [rectangular_object.append(str(print_symbol)) for j in range(self.__width)]
+            [rectangular_object.append(str(self.print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
                 rectangular_object.append("\n")
         return ("".join(rectangular_object))
