@@ -53,7 +53,7 @@ class Rectangle:
 
     def __str__(self):
         """Returns a representation of the Rectangle using #"""
-        if self._-width == 0 or self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ("")
 
         rectangular_object = []
