@@ -41,7 +41,7 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         self.__height = value
 
-    def __str__(self)__:
+    def __str__(self):
         """Returns a representation of the Rectangle using #"""
         if self._-width == 0 or self.__height == 0:
             return ("")
