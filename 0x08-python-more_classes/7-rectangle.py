@@ -7,7 +7,7 @@ class Rectangle:
 
     Attributes:
         number_of_instances (int): The number of Rectangle instances.
-        print_symbol (any): The symbol used for string representation.
+        print_symbol (any): The symbol used for string representation
     """
 
     number_of_instances = 0
@@ -26,7 +26,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """Get/set the width of the Rectangle."""
+        """Get/set the width of the rectangle."""
         return self.__width
 
     @width.setter
@@ -39,7 +39,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """Get/set the height of the Rectangle."""
+        """Get/set the height of the rectangle."""
         return self.__height
 
     @height.setter
@@ -51,32 +51,32 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """Return the area of the Rectangle."""
+        """Returns the area of the rectangle"""
         return (self.__width * self.__height)
 
     def perimeter(self):
-        """Return the perimeter of the Rectangle."""
+        """Returns the perimeter of the rectangle."""
         if self.__width == 0 or self.__height == 0:
             return (0)
-        return ((self.__width * 2) + (self.__height * 2))
+        return (2 * (self.__width + self.__height))
 
     def __str__(self):
-        """Return the printable representation of the Rectangle.
+        """Returns a printable presentation of the Rectangle.
 
-        Represents the rectangle with the # character.
+        Represents the rectangle with the print_symbol.
         """
         if self.__width == 0 or self.__height == 0:
             return ("")
 
-        rect = []
+        rectangular_object = []
         for i in range(self.__height):
-            [rect.append(str(self.print_symbol)) for j in range(self.__width)]
+            [rectangular_object.append(str(print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
-                rect.append("\n")
-        return ("".join(rect))
+                rectangular_object.append("\n")
+        return ("".join(rectangular_object))
 
     def __repr__(self):
-        """Return the string representation of the Rectangle."""
+        """Returns the string representation of the rectangle."""
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
