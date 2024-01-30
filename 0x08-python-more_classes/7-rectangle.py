@@ -61,19 +61,19 @@ class Rectangle:
         return (2 * (self.__width + self.__height))
 
     def __str__(self):
-        """Returns a printable presentation of the Rectangle.
+        """Return a printable presentation of the Rectangle.
 
         Represents the rectangle with the print_symbol.
         """
         if self.__width == 0 or self.__height == 0:
             return ("")
 
-        rectangular_object = []
+        rect = []
         for i in range(self.__height):
-            [rectangular_object.append(str(self.print_symbol)) for j in range(self.__width)]
+            [rect.append(str(self.print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
-                rectangular_object.append("\n")
-        return ("".join(rectangular_object))
+                rect.append("\n")
+        return ("".join(rect))
 
     def __repr__(self):
         """Returns the string representation of the rectangle."""
