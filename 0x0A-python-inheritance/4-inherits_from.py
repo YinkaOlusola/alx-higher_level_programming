@@ -2,7 +2,7 @@
 """Checks if an object is an instance of an inherited class"""
 
 
-def is_kind_of_class(obj, a_class):
+def inherits_from(obj, a_class):
     """Returns True or False if obj is an instance of derived
     class of is_class.
 
