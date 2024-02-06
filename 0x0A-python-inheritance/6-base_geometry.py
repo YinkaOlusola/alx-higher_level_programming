@@ -3,11 +3,7 @@
 
 
 class BaseGeometry:
-    """An empty BaseGeometry class."""
-
-    def __init__(self):
-        """A method to initilize the attributes of the class"""
-        return
+    """Not implemented"""
     
     def area(self):
         """A function to implement area."""
