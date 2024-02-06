@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Defines an object that returns a list of 
-available attributes and methods of an object
+    available attributes and methods of an object
 """
 
 
