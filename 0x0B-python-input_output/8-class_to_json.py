@@ -2,6 +2,6 @@
 import json
 
 
-def class_to_jason(obj):
+def class_to_json(obj):
     """A function that returns the dictionary description"""
-    return (json.dumps(obj.__class__.__doc__))
+    return (obj.__doc__)
