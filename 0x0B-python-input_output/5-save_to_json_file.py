@@ -4,14 +4,6 @@ import json
 
 
 def save_to_json(my_obj, filename):
-    """Writes an object to a text file using JSON
-        representation.
-
-        Args:
-            my_obj: Object to be written to a text file in JSON format
-            filename: The file to write to.
-        Returns:
-            The number of characters written to the file.
-        """
+    """Writes an object to a text file using JSON representation."""
     with open(filename, "w") as f:
         json.dump(my_obj, f)
