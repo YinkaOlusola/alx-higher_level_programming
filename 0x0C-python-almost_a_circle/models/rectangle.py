@@ -14,7 +14,13 @@ class Rectangle(Base):
             height (int): The height of the rectangle.
             x (int): The x coordinate of the new rectangle
             y (int): The y coordinate of the new rectangle.
-        """
+            id (int): Unique identifier
+        Raise:
+            TypeError: If either of height or width is not an integer
+            ValueError: If either of height or width is <= 0
+            TypeError: If either of x or y is not an integer
+            ValueError: If either of x or y is less than zero
+            """
 
         self.width = width
         self.height = height
