@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Defines a Rectangle Class."""
-
 from models.base import Base
 
 
@@ -16,19 +15,17 @@ class Rectangle(Base):
             x (int): The x coordinate of the new rectangle
             y (int): The y coordinate of the new rectangle.
             id (int): Unique identifier
-        Raise:
+        Raises:
             TypeError: If either of height or width is not an integer
             ValueError: If either of height or width is <= 0
             TypeError: If either of x or y is not an integer
             ValueError: If either of x or y is less than zero
         """
-
         self.width = width
         self.height = height
         self.x = x
         self.y = y
         super().__init__(id)
-
     
     @property
     def width(self):
