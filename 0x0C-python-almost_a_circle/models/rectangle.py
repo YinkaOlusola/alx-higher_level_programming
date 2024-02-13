@@ -55,6 +55,7 @@ class Rectangle(Base):
 
     @property
     def x(self):
+        """Set/gets the x coordinate of the rectangle."""
         return self.__x
 
     @x.setter
@@ -67,6 +68,7 @@ class Rectangle(Base):
 
     @property
     def y(self):
+        """Sets/gets the y coordinate of the rectangle."""
         return self.__y
 
     @y.setter
