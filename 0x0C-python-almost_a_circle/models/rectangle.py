@@ -3,6 +3,7 @@
 
 from models.base import Base
 
+
 class Rectangle(Base):
     """A Rectangle class that inherits from the Base class."""
 
@@ -20,7 +21,7 @@ class Rectangle(Base):
             ValueError: If either of height or width is <= 0
             TypeError: If either of x or y is not an integer
             ValueError: If either of x or y is less than zero
-            """
+        """
 
         self.width = width
         self.height = height
